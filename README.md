@@ -11,8 +11,8 @@
 - [X] Digitação por botões
 - [X] Soma
 - [X] Subtração
-- [ ] Multiplicação
-- [ ] Divisão
+- [X] Multiplicação
+- [X] Divisão
 - [X] Raiz
 - [X] Quadrado
 - [ ] Log em BD

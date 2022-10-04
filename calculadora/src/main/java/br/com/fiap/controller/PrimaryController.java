@@ -51,8 +51,11 @@ public class PrimaryController {
     public void calcular(){
         double numero2 = Double.valueOf(display.getText());
         double resultado = 0;
+        
         if (operacao.equals("+")) resultado = numero1 + numero2;
         if (operacao.equals("-")) resultado = numero1 - numero2;
+        if (operacao.equals("x")) resultado = numero1 * numero2;
+        if (operacao.equals("/")) resultado = numero1 / numero2;
         
         display.setText(String.valueOf(resultado));
     }
