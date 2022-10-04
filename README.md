@@ -14,7 +14,7 @@
 - [ ] Multiplicação
 - [ ] Divisão
 - [X] Raiz
-- [ ] Quadrado
+- [X] Quadrado
 - [ ] Log em BD
 
 
