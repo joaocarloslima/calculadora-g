@@ -7,6 +7,7 @@
 
 ## Funcionalidades
 
+- [X] GUI
 - [ ] Soma
 - [ ] Subtração
 - [ ] Multiplicação
