@@ -8,6 +8,7 @@
 ## Funcionalidades
 
 - [X] GUI
+- [X] Digitação por botões
 - [ ] Soma
 - [ ] Subtração
 - [ ] Multiplicação
