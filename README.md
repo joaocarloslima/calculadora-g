@@ -10,7 +10,7 @@
 - [X] GUI
 - [X] Digitação por botões
 - [X] Soma
-- [ ] Subtração
+- [X] Subtração
 - [ ] Multiplicação
 - [ ] Divisão
 - [X] Raiz
