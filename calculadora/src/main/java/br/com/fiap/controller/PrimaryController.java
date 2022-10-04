@@ -1,9 +1,15 @@
 package br.com.fiap.controller;
 
+import java.sql.SQLException;
+
+import br.com.fiap.dao.LogDao;
+import br.com.fiap.model.Log;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 
 public class PrimaryController {
 
@@ -58,5 +64,14 @@ public class PrimaryController {
         if (operacao.equals("/")) resultado = numero1 / numero2;
         
         display.setText(String.valueOf(resultado));
+
+        try{
+            new LogDao().inserir(new Log(numero1, numero2, operacao, resultado));
+        }catch(SQLException e){
+            var alerta = new Alert(AlertType.ERROR);
+            alerta.setContentText("Não foi possível salvar a operação no BD");
+            alerta.show();
+        }
+            
     }
 }
